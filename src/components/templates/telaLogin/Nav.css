@@ -1,0 +1,9 @@
+.menu a {
+    
+    display: inline-table;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 20px;
+}

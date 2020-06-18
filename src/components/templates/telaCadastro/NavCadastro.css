@@ -1,0 +1,13 @@
+.menu {
+    
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.menu a:hover {
+    background: linear-gradient(135deg, #07a7e3 0%, #32dac3 100%);
+}

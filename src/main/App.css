@@ -1,0 +1,39 @@
+:root{
+
+    
+    --Header-height: 100px;
+    --Main-height: 400px;
+    --Nav-height: 100px;
+}
+
+
+.app {
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows:
+    var(--header-height)
+    var(--Main-height)
+    var(--Nav-height);
+grid-template-areas:
+    "header"
+    "login"
+    "linkCadastro";
+min-height: 100vh;
+background-color: #F5F5F5;
+   
+} 
+
+header.header {
+    grid-area: header;
+}
+
+main.login {
+    grid-area: login ;
+}
+
+aside.linkCadastro {
+    grid-area: linkCadastro;
+}
+
+
